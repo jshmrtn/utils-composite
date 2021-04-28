@@ -16,7 +16,7 @@ const haveSameProps = (c1: Composite, c2: Composite): boolean => {
 
   return (
     keys1.length === getKeys(c2).length &&
-    keys1.every(k1 => hasKey(k1, c2) && get(k1, c1) === get(k1, c2))
+    keys1.every((k1) => hasKey(k1, c2) && get(k1, c1) === get(k1, c2))
   );
 };
 

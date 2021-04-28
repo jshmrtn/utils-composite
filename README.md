@@ -81,8 +81,8 @@ Get property value of given key.
 
 #### Parameters
 
--   `key` **Key** 
--   `composite` **Composite** 
+*   `key` **Key** 
+*   `composite` **Composite** 
 
 Returns **any** 
 
@@ -92,8 +92,8 @@ Returns value located at the given path or undefined otherwise.
 
 #### Parameters
 
--   `path` **Path** 
--   `composite` **Composite** 
+*   `path` **Path** 
+*   `composite` **Composite** 
 
 Returns **any** 
 
@@ -103,9 +103,9 @@ Get own enumerable keys.
 
 #### Parameters
 
--   `composite` **Composite** 
+*   `composite` **Composite** 
 
-Returns **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;Key>** 
+Returns **[Array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)\<Key>** 
 
 ### hasIn
 
@@ -114,9 +114,9 @@ specified.
 
 #### Parameters
 
--   `path` **Path** 
--   `value` **any** 
--   `composite` **Composite** 
+*   `path` **Path** 
+*   `value` **any** 
+*   `composite` **Composite** 
 
 Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
 
@@ -127,8 +127,8 @@ or false otherwise.
 
 #### Parameters
 
--   `key` **Key** 
--   `composite` **Composite** 
+*   `key` **Key** 
+*   `composite` **Composite** 
 
 Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
 
@@ -138,8 +138,8 @@ Returns true if both composites have the same props or false otherwise.
 
 #### Parameters
 
--   `c1` **Composite** 
--   `c2` **Composite** 
+*   `c1` **Composite** 
+*   `c2` **Composite** 
 
 Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
 
@@ -149,7 +149,7 @@ Returns true if parameter is a Composite or false otherwise
 
 #### Parameters
 
--   `thing` **any** 
+*   `thing` **any** 
 
 ### isEmpty
 
@@ -158,7 +158,7 @@ otherwise
 
 #### Parameters
 
--   `composite` **Composite** 
+*   `composite` **Composite** 
 
 Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
 
@@ -168,10 +168,10 @@ Maps values of the given composite using mapper
 
 #### Parameters
 
--   `mapper` **function (value: any, key: Key, composite: $Supertype&lt;C>): any** 
--   `composite` **C** 
+*   `mapper` **function (value: any, key: Key, composite: $Supertype\<C>): any** 
+*   `composite` **C** 
 
-Returns **$Supertype&lt;C>** 
+Returns **$Supertype\<C>** 
 
 ### remove
 
@@ -180,8 +180,8 @@ the given key.
 
 #### Parameters
 
--   `key` **Key** 
--   `composite` **Composite** 
+*   `key` **Key** 
+*   `composite` **Composite** 
 
 Returns **Composite** 
 
@@ -195,8 +195,8 @@ located at the given path.
 
 #### Parameters
 
--   `path` **Path** 
--   `composite` **Composite** 
+*   `path` **Path** 
+*   `composite` **Composite** 
 
 Returns **Composite** 
 
@@ -207,9 +207,9 @@ the given key with the specified value.
 
 #### Parameters
 
--   `key` **Key** 
--   `value` **any** 
--   `composite` **Composite** 
+*   `key` **Key** 
+*   `value` **any** 
+*   `composite` **Composite** 
 
 Returns **Composite** 
 
@@ -222,9 +222,9 @@ located at the given path with the specified value.
 
 #### Parameters
 
--   `path` **Path** 
--   `value` **any** 
--   `composite` **Composite** 
+*   `path` **Path** 
+*   `value` **any** 
+*   `composite` **Composite** 
 
 Returns **Composite** 
 
@@ -234,7 +234,7 @@ Returns a new composite with the same own enumerable props of the one given.
 
 #### Parameters
 
--   `composite` **C** 
+*   `composite` **C** 
 
 Returns **C** 
 
@@ -245,8 +245,8 @@ their properties are strictly equal.
 
 #### Parameters
 
--   `c1` **Composite** 
--   `c2` **Composite** 
+*   `c1` **Composite** 
+*   `c2` **Composite** 
 
 Returns **[boolean](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
 
@@ -257,7 +257,7 @@ undefined otherwise
 
 #### Parameters
 
--   `composite` **Composite** 
+*   `composite` **Composite** 
 
 Returns **Composite** 
 
@@ -271,9 +271,9 @@ function.
 
 #### Parameters
 
--   `path` **Path** 
--   `updater` **function (prev: any): any** 
--   `composite` **Composite** 
+*   `path` **Path** 
+*   `updater` **function (prev: any): any** 
+*   `composite` **Composite** 
 
 Returns **Composite** 
 

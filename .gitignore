@@ -8,3 +8,7 @@ yarn-error.log
 
 compat/
 dist/
+
+# VS Cpde
+
+.vscode

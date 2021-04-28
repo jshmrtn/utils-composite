@@ -5,7 +5,6 @@ extends:
   - airbnb-base
   - plugin:flowtype/recommended
   - prettier
-  - prettier/flowtype
 
 env:
   browser: true
